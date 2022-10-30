@@ -1,0 +1,22 @@
+.skills{
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    min-height: 50vh;
+}
+.card-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.card{
+    width: 150px;
+    border: 1px solid var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+}
+.card img{
+    width: 100%;
+}
