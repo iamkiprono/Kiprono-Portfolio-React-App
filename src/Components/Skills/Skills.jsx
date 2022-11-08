@@ -1,9 +1,9 @@
 import React from 'react'
 import "../Skills/Skills.css"
-import one from "../../assets/html.png"
-import two from "../../assets/css.png"
-import three from "../../assets/js.png"
-import four from "../../assets/react.png"
+import one from "../../assets/html.svg"
+import two from "../../assets/css.svg"
+import three from "../../assets/js.svg"
+import four from "../../assets/react.svg"
 
 const Skills = () => {
   return (

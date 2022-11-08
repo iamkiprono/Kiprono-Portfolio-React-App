@@ -1,8 +1,15 @@
 .skills{
-    background: var(--secondary-color);
     color: var(--primary-color);
-    min-height: 50vh;
+    background: var(--secondary-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
 }
+
+
 .card-holder{
     display: flex;
     flex-wrap: wrap;
@@ -16,7 +23,9 @@
     border: 1px solid var(--primary-color);
     padding: 20px;
     border-radius: 10px;
+    background: #fff;
 }
 .card img{
     width: 100%;
+    background: #fff;
 }
